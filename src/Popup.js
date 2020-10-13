@@ -135,7 +135,7 @@ export default class Popup extends MapComponent<LeafletElement, Props> {
             if (this.leafletElement._map && this.leafletElement._map._panAnim) {
               this.leafletElement._map._panAnim = undefined
             }
-            if (this.leafletElement) {
+            if (this.leafletElement._map) {
               this.leafletElement._adjustPan()
             }
           }

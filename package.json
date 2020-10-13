@@ -1,6 +1,6 @@
 {
-  "name": "react-leaflet",
-  "version": "1.7.8",
+  "name": "@bianchimro/react-leaflet",
+  "version": "1.7.8b",
   "description": "React components for Leaflet maps",
   "main": "lib/index.js",
   "module": "es/index.js",
